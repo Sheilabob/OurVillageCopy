@@ -2,37 +2,41 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+  display: block;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  margin: 2rem 0;
+  font-size: calc((4.2 - 1) * 1.2vh + 1rem);
+  line-height: 1.2208;
+  font-family: kepler-std;
+  font-weight: bold;
+  font-style: normal;
+  letter-spacing: 0em;
+  text-transform: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Home Hero Section */
+.homehero-container {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: left;
+  height: 602px;
+  width: 100%;
+  background-size: cover;
+  background-position: center center; /* or 50% 50% */
+  background-repeat: no-repeat;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(./images/ourvillageHero.jpg);
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.homehero-title {
+  color: #fff;
+  text-align: center;
+  font-size: calc((4.2 - 1) * 1.2vh + 1.5rem);
+  /* text-shadow: 0.5px 0.5px black; */
+  font-weight: bold;
+  padding: 25%;
+  /* text-align: left;
+  padding-left: 20px; */
 }
