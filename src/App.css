@@ -40,3 +40,19 @@ h1 {
   /* text-align: left;
   padding-left: 20px; */
 }
+
+/* Misson Values Goals Component */
+.mvg-title {
+  color: #0303ab;
+  font-weight: 949;
+  font-family: kepler-std;
+  margin-bottom: 32px;
+}
+
+.mvg-words {
+  font-size: calc((1.7 - 1) * 1.2vw + 1rem);
+  margin-top: 16px;
+  margin-bottom: 16px;
+  font-weight: bold;
+  font-family: kepler-std;
+}
