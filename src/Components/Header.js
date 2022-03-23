@@ -3,7 +3,9 @@ import {
   Container,
   Navbar, 
   Nav,
-  NavbarBrand
+  NavbarBrand,
+  Row,
+  Col
 } from "react-bootstrap";
 // import {NavLink, Link} from "react-router-dom"
 
@@ -12,27 +14,34 @@ const Header = () => {
     <Navbar className="custom-navbar" transparent bg="light" sticky="top" expand="lg">
       <Container fluid>  
         <NavbarBrand href="/">
-            <img className='navbar-logo' src="" alt="Our Village Logo"/>
+            <h4>Our Village Community Center</h4>
         </NavbarBrand>     
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="navBarLinks">
+                <Row>
+                    <Col>
                 {/* <NavLink to="/aboutPage" className="items-navigation"> */}
                     Our Programming
                     {/* </NavLink> */}
+                    </Col><Col>
                 {/* <NavLink to="workWithUsPage" className="items-navigation"> */}
                     Community Partners
                     {/* </NavLink> */}
+                    </Col><Col>
                                     {/* <NavLink to="/aboutPage" className="items-navigation"> */}
                                     Future Programming
                     {/* </NavLink> */}
+                    </Col><Col>
                 {/* <NavLink to="/aboutPage" className="items-navigation"> */}
                 Our Animals
                     {/* </NavLink> */}
+                    </Col><Col>
                 {/* <NavLink to="/aboutPage" className="items-navigation"> */}
                 Our Days
                     {/* </NavLink> */}
-
+                    </Col>
+                    </Row>
             </Nav>
                 {/* <Link to="/donatePage"> */}
                     <button>Donate</button>
