@@ -5,6 +5,7 @@ import HomeHero from './Components/HomeHero';
 import Header from './Components/Header';
 import MissionVisionGoals from './Components/MissionVisionGoals';
 import HomeLowerHero from './Components/HomeLowerHero';
+import HomeOurPrograms from './Components/HomeOurPrograms';
 
 
 function App(props) {
@@ -15,6 +16,7 @@ function App(props) {
       <HomeHero />
       <MissionVisionGoals />
       <HomeLowerHero />
+      <HomeOurPrograms />
       {props.msg}
     </div>
   );
