@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import HomeHero from './Components/HomeHero';
 import Header from './Components/Header';
 import MissionVisionGoals from './Components/MissionVisionGoals';
+import HomeLowerHero from './Components/HomeLowerHero';
 
 
 function App(props) {
@@ -13,6 +14,7 @@ function App(props) {
       <Header />
       <HomeHero />
       <MissionVisionGoals />
+      <HomeLowerHero />
       {props.msg}
     </div>
   );
