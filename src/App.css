@@ -134,3 +134,48 @@ h4 {
   /* text-align: left;
   padding-left: 20px; */
 }
+
+.history-sec {
+  text-align: left;
+}
+
+.farm-pic {
+  width: 688px;
+  height: 458px;
+}
+
+.person-pic {
+  width: 310px;
+  height: 174px;
+}
+
+/* Home Volunteer Hero Section */
+.homehero-volunteer-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 407px;
+  width: 100%;
+  background-size: cover;
+  background-position: 50% 30%;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(./images/ourvillageHomeVolunteer.jpg);
+}
+
+.homehero-volunteer-title {
+  color: #fff;
+  text-align: center;
+  font-size: calc((2.8 - 1) * 1.2vw + 1rem);
+  /* text-shadow: 0.5px 0.5px black; */
+  font-weight: 300;
+  margin-top: 20%;
+  margin-bottom: 20%;
+  /* text-align: left;
+  padding-left: 20px; */
+}
+
+.ov-buttons {
+  font-size: calc((1.1 - 1) * 1.2vw + 1rem);
+  padding: 1.1em 1.837em;
+}
