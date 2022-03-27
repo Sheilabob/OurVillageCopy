@@ -9,7 +9,7 @@ import {
 } from "react-bootstrap";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faTwitter, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
-// import {NavLink, Link} from "react-router-dom"
+import {NavLink, Link} from "react-router-dom"
 
 const Header = () => {
   return (
@@ -24,9 +24,9 @@ const Header = () => {
                 <Row><Col sm={8}>
                   <Row>
                     <Col>
-                {/* <NavLink to="/aboutPage" className="items-navigation"> */}
+                <NavLink to="/ourProgramming" className="head-link">
                     Our Programming
-                    {/* </NavLink> */}
+                    </NavLink>
                     </Col><Col>
                 {/* <NavLink to="workWithUsPage" className="items-navigation"> */}
                     Community Partners
@@ -46,15 +46,15 @@ const Header = () => {
                     </Col>
                     </Row>
                     </Col>
-                    <Col className="head-far-right">
+                    <Col className="head-far-right m-3">
                     <a className="head-social-btn" href="https://www.instagram.com/ourvillagemoab/" target="https://www.instagram.com/ourvillagemoab/">
-                            <FontAwesomeIcon icon={faInstagram} size="2x"/>
+                            <FontAwesomeIcon icon={faInstagram} />
                         </a>
                         <a className="head-social-btn" href="https://www.facebook.com/OurVillageMoab" target="https://www.facebook.com/OurVillageMoab">
-                            <FontAwesomeIcon icon={faFacebook} size="2x"/>
+                            <FontAwesomeIcon icon={faFacebook} />
                         </a>
                         {/* <Link to="/donatePage"> */}
-                    <button>Donate</button>
+                    <button className="donate-button">Donate</button>
                 {/* </Link> */}
                     </Col>
                     </Row>

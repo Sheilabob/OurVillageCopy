@@ -1,29 +1,31 @@
-import logo from './logo.svg';
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route
+} from "react-router-dom";
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import HomeHero from './Components/HomeHero';
-import Header from './Components/Header';
-import MissionVisionGoals from './Components/MissionVisionGoals';
-import HomeLowerHero from './Components/HomeLowerHero';
-import HomeOurPrograms from './Components/HomeOurPrograms';
-import HomeHistory from './Components/HomeHistory';
-import HomeVolunteerHero from './Components/HomeVolunteerHero';
+import Header from "./Components/Header";
 import Footer from './Components/Footer';
+import HomePage from "./Pages/HomePage";
+import ProgrammingPage from "./Pages/ProgrammingPage";
 
 
-function App(props) {
-  console.log(props)
+function App() {
+  
   return (
     <div className="App">
-      <Header />
-      <HomeHero />
-      <MissionVisionGoals />
-      <HomeLowerHero />
-      <HomeOurPrograms />
-      <HomeHistory />
-      <HomeVolunteerHero />
-      <Footer />
-      {props.msg}
+      <Router>
+        <Header />
+          <Routes>
+            <Route>
+              <Route path="/" element={<HomePage />} />
+              <Route path="/ourProgramming" element={<ProgrammingPage />} />
+            </Route>
+          </Routes>
+        
+        <Footer />
+      </Router>
     </div>
   );
 }
