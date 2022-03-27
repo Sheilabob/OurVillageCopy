@@ -179,3 +179,49 @@ h4 {
   font-size: calc((1.1 - 1) * 1.2vw + 1rem);
   padding: 1.1em 1.837em;
 }
+
+/* Footer CSS */
+.site-footer {
+  padding: 2em;
+  background-color: rgb(22, 21, 21);
+  color: white;
+  text-align: left;
+}
+
+.social-btn {
+  color: white;
+  padding: 0.75em;
+  display: inline;
+}
+
+.social-btn:hover {
+  color: #0303ab;
+}
+
+.email-text {
+  /* display: block; */
+  /* margin-inline-start: 0px; */
+  /* margin-inline-end: 0px; */
+  /* margin-bottom: 2rem; */
+  text-align: left;
+  font-size: calc((1.2 - 1) * 1.2vw + 1rem);
+  /* line-height: 1.2208; */
+  font-family: kepler-std;
+  font-weight: bold;
+  /* font-style: normal; */
+  /* letter-spacing: 0em; */
+  /* text-transform: none; */
+}
+
+.menu-item-footer {
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.menu-footer {
+  margin-bottom: 2em;
+}
+
+.ovcc-footer {
+  text-align: center;
+}
