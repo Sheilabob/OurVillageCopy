@@ -58,6 +58,20 @@ h4 {
   white-space: pre;
 }
 
+.head-far-right {
+  text-align: right;
+}
+
+.head-social-btn {
+  color: #0303ab;
+  padding: 0.75em;
+  display: inline;
+}
+
+.head-social-btn:hover {
+  color: blue;
+}
+
 /* Home Hero Section */
 .homehero-container {
   display: flex;

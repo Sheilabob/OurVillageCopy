@@ -7,6 +7,8 @@ import {
   Row,
   Col
 } from "react-bootstrap";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFacebook, faTwitter, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 // import {NavLink, Link} from "react-router-dom"
 
 const Header = () => {
@@ -19,7 +21,8 @@ const Header = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="navBarLinks">
-                <Row>
+                <Row><Col sm={8}>
+                  <Row>
                     <Col>
                 {/* <NavLink to="/aboutPage" className="items-navigation"> */}
                     Our Programming
@@ -42,10 +45,20 @@ const Header = () => {
                     {/* </NavLink> */}
                     </Col>
                     </Row>
-            </Nav>
-                {/* <Link to="/donatePage"> */}
+                    </Col>
+                    <Col className="head-far-right">
+                    <a className="head-social-btn" href="https://www.instagram.com/ourvillagemoab/" target="https://www.instagram.com/ourvillagemoab/">
+                            <FontAwesomeIcon icon={faInstagram} size="2x"/>
+                        </a>
+                        <a className="head-social-btn" href="https://www.facebook.com/OurVillageMoab" target="https://www.facebook.com/OurVillageMoab">
+                            <FontAwesomeIcon icon={faFacebook} size="2x"/>
+                        </a>
+                        {/* <Link to="/donatePage"> */}
                     <button>Donate</button>
                 {/* </Link> */}
+                    </Col>
+                    </Row>
+            </Nav>
         </Navbar.Collapse>
       </Container>
     </Navbar>
