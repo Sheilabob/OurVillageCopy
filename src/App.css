@@ -264,3 +264,26 @@ h4 {
 .ovcc-footer {
   text-align: center;
 }
+
+/* Programming Page */
+
+.programhero-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 250px;
+  width: 100%;
+  background-size: cover;
+  background-position: 40% 60%; /* or 50% 50% */
+  background-repeat: no-repeat;
+  background-image: linear-gradient(rgba(150, 0, 0, 0.1), rgba(150, 0, 0, 0.1)),
+    url(./images/programHero.jpg);
+}
+
+.programhero-title {
+  color: #fff;
+  text-align: center;
+  font-size: calc((4.2 - 1) * 1.2vh + 1.5rem);
+  font-weight: normal;
+  padding: 10%;
+}
