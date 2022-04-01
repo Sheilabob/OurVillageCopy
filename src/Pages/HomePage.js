@@ -4,7 +4,6 @@ import MissionVisionGoals from '../Components/MissionVisionGoals';
 import HomeLowerHero from '../Components/HomeLowerHero';
 import HomeOurPrograms from '../Components/HomeOurPrograms';
 import HomeHistory from '../Components/HomeHistory';
-import HomeVolunteerHero from '../Components/HomeVolunteerHero';
 
 
 export default function HomePage() {
@@ -15,7 +14,6 @@ export default function HomePage() {
             <HomeLowerHero />
             <HomeOurPrograms />
             <HomeHistory />
-            <HomeVolunteerHero />
             
 
             

@@ -9,6 +9,7 @@ import Header from "./Components/Header";
 import Footer from './Components/Footer';
 import HomePage from "./Pages/HomePage";
 import ProgrammingPage from "./Pages/ProgrammingPage";
+import HomeVolunteerHero from "./Components/HomeVolunteerHero";
 
 
 function App() {
@@ -23,7 +24,7 @@ function App() {
               <Route path="/ourProgramming" element={<ProgrammingPage />} />
             </Route>
           </Routes>
-        
+        <HomeVolunteerHero />
         <Footer />
       </Router>
     </div>
