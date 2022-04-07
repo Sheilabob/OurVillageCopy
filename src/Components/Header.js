@@ -28,9 +28,9 @@ const Header = () => {
                     Our Programming
                     </NavLink>
                     </Col><Col>
-                {/* <NavLink to="workWithUsPage" className="items-navigation"> */}
+                    <NavLink to="/communityPartners" className="head-link">
                     Community Partners
-                    {/* </NavLink> */}
+                    </NavLink>
                     </Col><Col>
                                     {/* <NavLink to="/aboutPage" className="items-navigation"> */}
                                     Future Programming
