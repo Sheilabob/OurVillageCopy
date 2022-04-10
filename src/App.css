@@ -336,3 +336,17 @@ h4 {
   object-position: 50% 50%;
   object-fit: cover;
 }
+
+/* Partners Page */
+
+.partnerhero-container {
+  align-items: center;
+  justify-content: left;
+  height: 580px;
+  width: 100%;
+  background-size: cover;
+  background-position: center center; /* or 50% 50% */
+  background-repeat: no-repeat;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(./images/orchard.jpg);
+}
