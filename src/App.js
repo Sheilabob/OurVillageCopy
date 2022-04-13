@@ -1,3 +1,4 @@
+import React, {useLayoutEffect} from "react";
 import {
   BrowserRouter as Router,
   Routes,
@@ -15,9 +16,13 @@ import HomeVolunteerHero from "./Components/HomeVolunteerHero";
 
 function App() {
   
+useLayoutEffect(() => {
+    window.scrollTo(0, 0)
+});
+
   return (
     <div className="App">
-      <Router>
+      <Router >
         <Header />
           <Routes>
             <Route>
