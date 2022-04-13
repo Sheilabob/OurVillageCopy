@@ -350,3 +350,17 @@ h4 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
     url(./images/orchard.jpg);
 }
+
+.partner-font-size {
+  font-size: calc((1.3 - 1) * 1.2vw + 1rem);
+  text-align: left;
+}
+
+.top-space-needed {
+  margin-top: 2em;
+}
+
+.partner-pic {
+  width: 100%;
+  padding-top: 1em;
+}
