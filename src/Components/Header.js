@@ -36,9 +36,9 @@ const Header = () => {
                                     Future Programming
                     </NavLink>
                     </Col><Col>
-                {/* <NavLink to="/aboutPage" className="items-navigation"> */}
+                <NavLink to="/ourAnimals" className="head-link">
                 Our Animals
-                    {/* </NavLink> */}
+                    </NavLink>
                     </Col><Col>
                 {/* <NavLink to="/aboutPage" className="items-navigation"> */}
                 Our Days
