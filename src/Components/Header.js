@@ -32,9 +32,9 @@ const Header = () => {
                     Community Partners
                     </NavLink>
                     </Col><Col>
-                                    {/* <NavLink to="/aboutPage" className="items-navigation"> */}
+                                    <NavLink to="/futurePrograms" className="head-link">
                                     Future Programming
-                    {/* </NavLink> */}
+                    </NavLink>
                     </Col><Col>
                 {/* <NavLink to="/aboutPage" className="items-navigation"> */}
                 Our Animals

@@ -364,3 +364,75 @@ h4 {
   width: 100%;
   padding-top: 1em;
 }
+
+/* Future Programming Page */
+
+.future-pic {
+  width: 100%;
+}
+
+.future1-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center center; /* or 50% 50% */
+  background-repeat: no-repeat;
+  background-image: url(./images/future1.jpg);
+  color: rgba(255, 255, 255, 0);
+  min-height: 250px;
+}
+
+.future1-container:hover {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center center; /* or 50% 50% */
+  background-repeat: no-repeat;
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.8),
+      rgba(255, 255, 255, 0.8)
+    ),
+    url(./images/future1.jpg);
+  color: black;
+  /* filter: opacity(20%); */
+  min-height: 250px;
+}
+
+.future2-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center center; /* or 50% 50% */
+  background-repeat: no-repeat;
+  background-image: url(./images/future2.jpg);
+  color: rgba(255, 255, 255, 0);
+  min-height: 250px;
+}
+
+.future2-container:hover {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center center; /* or 50% 50% */
+  background-repeat: no-repeat;
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.8),
+      rgba(255, 255, 255, 0.8)
+    ),
+    url(./images/future2.jpg);
+  color: black;
+  /* filter: opacity(20%); */
+  min-height: 250px;
+}
