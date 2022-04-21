@@ -445,3 +445,11 @@ h4 {
   font-size: calc((1.5 - 1) * 1.2vw + 1rem) !important;
   margin-top: 2rem;
 }
+
+.animal-donation {
+  text-align: left;
+}
+
+.animal-button {
+  padding: 5%;
+}
