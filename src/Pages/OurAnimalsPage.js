@@ -1,4 +1,5 @@
 import React, { useLayoutEffect} from 'react';
+import AnimalHero from '../Components/AnimalHero';
 import OurAnimals from '../Components/OurAnimals';
 import OurAnimalsDonation from '../Components/OurAnimalsDonation';
 
@@ -15,6 +16,7 @@ export default function OurAnimalsPage() {
         <>
             <OurAnimals />
             <OurAnimalsDonation />
+            <AnimalHero />
             
 
             
