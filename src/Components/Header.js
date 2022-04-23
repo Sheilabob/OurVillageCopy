@@ -40,9 +40,9 @@ const Header = () => {
                 Our Animals
                     </NavLink>
                     </Col><Col>
-                {/* <NavLink to="/aboutPage" className="items-navigation"> */}
+                <NavLink to="/ourDays" className="head-link">
                 Our Days
-                    {/* </NavLink> */}
+                    </NavLink>
                     </Col>
                     </Row>
                     </Col>

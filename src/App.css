@@ -453,3 +453,37 @@ h4 {
 .animal-button {
   padding: 5%;
 }
+
+/* Our Days */
+
+.pic-container {
+  justify-content: center;
+  width: 100% !important;
+  display: flex;
+  /* flex-wrap: nowrap; */
+  flex-direction: row;
+  margin: 0 !important;
+  justify-content: space-around !important;
+  background-color: #dfdcd7;
+}
+
+.days-pic {
+  height: 312px !important;
+  width: auto;
+  margin: 0 !important;
+  padding-left: 0 !important;
+  padding-top: 1em;
+  padding-right: 0 !important;
+  padding-bottom: 1em;
+}
+
+.picRow {
+  justify-content: space-around !important;
+  width: 100% !important;
+}
+
+.picCol {
+  padding: 0 !important;
+  width: auto;
+  justify-content: space-around !important;
+}
