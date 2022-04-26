@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from 'react-bootstrap';
+import { NavLink } from "react-router-dom";
 
 export default function HomeVolunteerHero() {
     return (
@@ -7,7 +8,7 @@ export default function HomeVolunteerHero() {
         <Row>
           <Col>
             <h2 className="homehero-volunteer-title"><strong>Volunteer</strong></h2>
-            <button className="ov-buttons">Join Us!</button>
+            <NavLink to="/volunteer"><button className="ov-buttons">Join Us!</button></NavLink>
             <h2 className="homehero-volunteer-title"><strong>Donate</strong></h2>
             <button className="ov-buttons">Donate</button>
           </Col>

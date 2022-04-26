@@ -15,6 +15,8 @@ import HomeVolunteerHero from "./Components/HomeVolunteerHero";
 import FutureProgramsPage from "./Pages/FutureProgramsPage";
 import OurAnimalsPage from "./Pages/OurAnimalsPage";
 import OurDaysPage from "./Pages/OurDaysPage";
+import VolunteerFormPage from "./Pages/VolunteerFormPage";
+
 
 
 function App() {
@@ -35,6 +37,7 @@ useLayoutEffect(() => {
               <Route path="/futurePrograms" element={<FutureProgramsPage />} />
               <Route path="/ourAnimals" element={<OurAnimalsPage />} />
               <Route path="/ourDays" element={<OurDaysPage />} />
+              <Route path="/volunteer" element={<VolunteerFormPage />} />
 
             </Route>
           </Routes>
