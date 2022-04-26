@@ -265,6 +265,14 @@ h4 {
   text-align: center;
 }
 
+.map-button {
+  width: 100px !important;
+}
+
+.centered {
+  justify-content: center;
+}
+
 /* Programming Page */
 
 .programhero-container {

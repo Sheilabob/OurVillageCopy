@@ -42,8 +42,13 @@ export default function Footer() {
                     <a className="email-text" href="mailto:ourvillagemoab@gmail.com" target="_blank">ourvillagemoab@gmail.com <FontAwesomeIcon icon={faEnvelope} size="2x"  /></a>
                     </Col>        
                    
-                        <hr/>
                 </Row>
+                <Row className="m-3 centered">
+                <button className="m-3 ov-buttons map-button">Map</button>
+                <hr/>
+
+                </Row>
+
                 <Row>
                     <Col className="m-5 ovcc-footer">
                     <h3>Our Village Community Center is a 501c(3) Tax-Exempt Nonprofit</h3>
